@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>KleurenToggle</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body class="body">
+    
+    <div class="btnToggleNav" onmouseover="toggleNav()" onmouseout="toggleNav()"><img src="hamburger-menu.png"/></div>
+    
+    <nav class="nav-sidebar">
+        <ul onmouseover="toggleNav()" onmouseout="toggleNav()">
+            <li id="taupeLink" class="taupeLink"><a href="#">Taupe</a></li>
+            <li id="beigeLink" class="beigeLink"><a href="#">Let's call this Beige</a></li>
+            <li id="pinkLink" class="pinkLink"><a href="#">Pinkish</a></li>
+            <li id="brownLink" class="brownLink"><a href="#">Brownish</a></li>
+            <li id="darkblueLink" class="darkblueLink"><a href="#">Sort of Greyish Dark Blue</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <p id="color-description"></p>
+    </main>
+
+    <script defer src="script.js" type="text/javascript"></script>
+</body>
+
+
+</html>
